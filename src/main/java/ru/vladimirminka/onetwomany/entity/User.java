@@ -21,4 +21,5 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "user_id")
     private List<Auto> auto = new ArrayList<>();
+    //
 }
